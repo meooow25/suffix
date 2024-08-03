@@ -1,0 +1,6 @@
+packages:
+  .
+  bench/
+
+tests: true
+benchmarks: true
