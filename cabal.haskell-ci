@@ -1,0 +1,9 @@
+branches: master
+
+-- Haddock bug on old versions
+haddock: >= 8.6
+
+constraint-set internal-checks-on
+    constraints: suffix +internal-checks
+    tests:       True
+    run-tests:   True
